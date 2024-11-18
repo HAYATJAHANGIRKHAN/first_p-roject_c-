@@ -49,9 +49,9 @@ namespace ConsoleApp1
 
             //escape Sequence characters
 
-            String hello = "Hello Hayat \"Jahangir Khan ";
-            String hello1 = "Hello Hayat \nJahangir Khan ";
-            String hello2 = "Hello Hayat \tJahangir Khan ";
+            //String hello = "Hello Hayat \"Jahangir Khan ";
+            //String hello1 = "Hello Hayat \nJahangir Khan ";
+            //String hello2 = "Hello Hayat \tJahangir Khan ";
             //Console.WriteLine(hello.Length);
             //Console.WriteLine(hello.ToUpper());
             //Console.WriteLine(hello. ToLower());
@@ -69,10 +69,41 @@ namespace ConsoleApp1
             //Console.WriteLine(hello.IndexOf("world"));
             //Console.WriteLine(hello.Substring(5));
 
-            Console.WriteLine(hello);
-            Console.WriteLine(hello1);
-            Console.WriteLine(hello2);
+            //Console.WriteLine(hello);
+            //Console.WriteLine(hello1);
+            //Console.WriteLine(hello2);
 
+            //loop
+            //int a;
+            Console.WriteLine("enter yur age");
+            String ageStr = Console.ReadLine();
+            int a = Convert.ToInt32(ageStr);
+             
+            if (a >= 18 )
+            {
+                Console.WriteLine("you Can Vote");
+            }else
+            {
+                Console.WriteLine("not Vote ");
+            }
+
+            Console.WriteLine("enter yur age");
+            String ageStr1 = Console.ReadLine();
+            int b = Convert.ToInt32(ageStr1);
+
+            //int b = 17;
+            if (b <= 5)
+            {
+                Console.WriteLine("new born baby");
+
+            }
+            else if (b >= 6 && b <= 18)
+            {
+                Console.WriteLine("you youg");
+            } else
+            {
+                Console.WriteLine("you elder");
+            }
 
 
             Console.ReadLine();
