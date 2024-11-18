@@ -178,11 +178,21 @@ namespace ConsoleApp1
                 //Console.WriteLine(m);
                 
             //}
-            greet("hayat");
-            greet("jahangir");
-            //greet(name);
+           // greet("hayat");
+           // greet("jahangir");
+           // //greet(name);
 
-           Console.WriteLine( Average(2, 3, 5));
+           //Console.WriteLine( Average(2, 3, 5));
+
+            //ooPs - classes and objects 
+            Player tmm= new Player();
+            Console.WriteLine(tmm.Name);
+            Console.WriteLine(tmm.health);
+            tmm.setHealth(20);
+            Console.WriteLine(tmm.health);
+
+
+
 
             Console.ReadLine();
 
