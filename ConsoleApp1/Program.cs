@@ -22,8 +22,24 @@ namespace ConsoleApp1
             // TypeCasting 
             // implicit TypeCasting (convert small to Large)
             // char to int to long to float to double
-            int x = (int)3.5;
-            Console.WriteLine(x);
+            //int x = (int)3.5;
+
+            //Console.WriteLine(x);
+
+            //input
+            Console.WriteLine("enter your name");
+
+            String name=Console.ReadLine();
+            Console.WriteLine("hey hi"+"-"+name); 
+            
+            
+            
+            Console.WriteLine("how much swt");
+            String swt=Console.ReadLine();
+            Console.WriteLine("gift 4 my side:"+ (Convert.ToInt32(swt) + 4));
+
+
+
             Console.ReadLine();
 
 
