@@ -38,15 +38,32 @@ namespace ConsoleApp1
             //String swt=Console.ReadLine();
             //Console.WriteLine("gift 4 my side:"+ (Convert.ToInt32(swt) + 4));
 
-            int a = Math.Max(34, 345);
-            int b = Math.Min(34, 345);
-            double c = Math.Sqrt(36);
-            double d = Math.Abs(-3);
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
-            Console.WriteLine(d);
+            //int a = Math.Max(34, 345);
+            //int b = Math.Min(34, 345);
+            //double c = Math.Sqrt(36);
+            //double d = Math.Abs(-3);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+            //Console.WriteLine(d);
 
+            //String hello = "Hello Hayat Jahangir Khan ";
+            //Console.WriteLine(hello.Length);
+            //Console.WriteLine(hello.ToUpper());
+            //Console.WriteLine(hello. ToLower());
+            //Console.WriteLine(hello. Normalize());
+            //Console.WriteLine(hello. ToArray());
+            //Console.WriteLine(String.Concat(hello+ "hi jaaniya"));
+
+            //String name = Console.ReadLine();
+            //String cands = Console.ReadLine();
+            //Console.WriteLine($"Your Name is {name}. you will get {cands} cands");
+            //Console.WriteLine($" {name}. {cands} cands");
+
+            String hello = "Hello world this is jaaniya";
+            //Console.WriteLine(hello[2]);
+            Console.WriteLine(hello.IndexOf("world"));
+            Console.WriteLine(hello.Substring(5));
 
 
             Console.ReadLine();
