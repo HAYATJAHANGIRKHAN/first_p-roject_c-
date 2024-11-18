@@ -105,30 +105,50 @@ namespace ConsoleApp1
             //    Console.WriteLine("you elder");
             //}
 
-            Console.WriteLine("enter your number");
-            String days=Console.ReadLine();
-            int c= Convert.ToInt32(days);
+            //Console.WriteLine("enter your number");
+            //String days=Console.ReadLine();
+            //int c= Convert.ToInt32(days);
 
-            switch(c)
+            //switch(c)
+            //{
+            //    case 1: Console.WriteLine("monday");
+            //        break;
+
+            //case 2: Console.WriteLine("tuesday");
+            //    break;
+            //case 3: Console.WriteLine("Wednesday");
+            //    break;
+            //case 4: Console.WriteLine("Thursday");
+            //    break;
+            //case 5: Console.WriteLine("friday");
+            //    break;
+            //case 6: Console.WriteLine("saturday");
+            //    break;
+            //        default: Console.WriteLine("holiday enjoy");
+            //    break;
+            //}
+            //loops in c sharp
+
+            int i = 0;
+            while (i <= 5)
             {
-                case 1: Console.WriteLine("monday");
-                    break;
-        
-            case 2: Console.WriteLine("tuesday");
-                break;
-            case 3: Console.WriteLine("Wednesday");
-                break;
-            case 4: Console.WriteLine("Thursday");
-                break;
-            case 5: Console.WriteLine("friday");
-                break;
-            case 6: Console.WriteLine("saturday");
-                break;
-                    default: Console.WriteLine("holiday enjoy");
-                break;
+                Console.WriteLine(i+1);
+                i++;
             }
 
+            int x = 0;
+            do
+            {
+                Console.WriteLine(x);
+                x++;
+            }while (x < 10);
 
+
+            
+            for(int z=20; z<30; z++)
+            {
+                Console.WriteLine(z);
+            }
 
             Console.ReadLine();
 
