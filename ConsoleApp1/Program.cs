@@ -27,16 +27,25 @@ namespace ConsoleApp1
             //Console.WriteLine(x);
 
             //input
-            Console.WriteLine("enter your name");
+            //Console.WriteLine("enter your name");
 
-            String name=Console.ReadLine();
-            Console.WriteLine("hey hi"+"-"+name); 
-            
-            
-            
-            Console.WriteLine("how much swt");
-            String swt=Console.ReadLine();
-            Console.WriteLine("gift 4 my side:"+ (Convert.ToInt32(swt) + 4));
+            //String name=Console.ReadLine();
+            //Console.WriteLine("hey hi"+"-"+name); 
+
+
+
+            //Console.WriteLine("how much swt");
+            //String swt=Console.ReadLine();
+            //Console.WriteLine("gift 4 my side:"+ (Convert.ToInt32(swt) + 4));
+
+            int a = Math.Max(34, 345);
+            int b = Math.Min(34, 345);
+            double c = Math.Sqrt(36);
+            double d = Math.Abs(-3);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
 
 
 
