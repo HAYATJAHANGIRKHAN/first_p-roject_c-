@@ -129,26 +129,47 @@ namespace ConsoleApp1
             //}
             //loops in c sharp
 
-            int i = 0;
-            while (i <= 5)
-            {
-                Console.WriteLine(i+1);
-                i++;
-            }
+            //int i = 0;
+            //while (i <= 5)
+            //{
+            //    Console.WriteLine(i+1);
+            //    i++;
+            //}
 
-            int x = 0;
-            do
-            {
-                Console.WriteLine(x);
-                x++;
-            }while (x < 10);
+            //int x = 0;
+            //do
+            //{
+            //    Console.WriteLine(x);
+            //    x++;
+            //}while (x < 10);
 
 
-            
-            for(int z=20; z<30; z++)
+
+            //for(int z=20; z<30; z++)
+            //{
+            //    Console.WriteLine(z);
+            //}
+
+
+            //break & Continue
+
+            for (int z = 20; z < 30; z++)
             {
                 Console.WriteLine(z);
+                break; // when this condition true then its out from loop
             }
+
+            for (int m = 0; m < 5; m++)
+            {
+                if(m==2)// in this situation 2 not print
+                    {
+
+                continue;
+                }
+                Console.WriteLine(m);
+                
+            }
+
 
             Console.ReadLine();
 
