@@ -73,37 +73,61 @@ namespace ConsoleApp1
             //Console.WriteLine(hello1);
             //Console.WriteLine(hello2);
 
-            //loop
+            // IFELSE statements
             //int a;
-            Console.WriteLine("enter yur age");
-            String ageStr = Console.ReadLine();
-            int a = Convert.ToInt32(ageStr);
-             
-            if (a >= 18 )
+            //Console.WriteLine("enter yur age");
+            //String ageStr = Console.ReadLine();
+            //int a = Convert.ToInt32(ageStr);
+
+            //if (a >= 18 )
+            //{
+            //    Console.WriteLine("you Can Vote");
+            //}else
+            //{
+            //    Console.WriteLine("not Vote ");
+            //}
+
+            //Console.WriteLine("enter yur age");
+            //String ageStr1 = Console.ReadLine();
+            //int b = Convert.ToInt32(ageStr1);
+
+            ////int b = 17;
+            //if (b <= 5)
+            //{
+            //    Console.WriteLine("new born baby");
+
+            //}
+            //else if (b >= 6 && b <= 18)
+            //{
+            //    Console.WriteLine("you youg");
+            //} else
+            //{
+            //    Console.WriteLine("you elder");
+            //}
+
+            Console.WriteLine("enter your number");
+            String days=Console.ReadLine();
+            int c= Convert.ToInt32(days);
+
+            switch(c)
             {
-                Console.WriteLine("you Can Vote");
-            }else
-            {
-                Console.WriteLine("not Vote ");
+                case 1: Console.WriteLine("monday");
+                    break;
+        
+            case 2: Console.WriteLine("tuesday");
+                break;
+            case 3: Console.WriteLine("Wednesday");
+                break;
+            case 4: Console.WriteLine("Thursday");
+                break;
+            case 5: Console.WriteLine("friday");
+                break;
+            case 6: Console.WriteLine("saturday");
+                break;
+                    default: Console.WriteLine("holiday enjoy");
+                break;
             }
 
-            Console.WriteLine("enter yur age");
-            String ageStr1 = Console.ReadLine();
-            int b = Convert.ToInt32(ageStr1);
-
-            //int b = 17;
-            if (b <= 5)
-            {
-                Console.WriteLine("new born baby");
-
-            }
-            else if (b >= 6 && b <= 18)
-            {
-                Console.WriteLine("you youg");
-            } else
-            {
-                Console.WriteLine("you elder");
-            }
 
 
             Console.ReadLine();
