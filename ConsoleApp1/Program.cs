@@ -8,6 +8,15 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        static void greet( string name)
+        {
+            Console.WriteLine("good morning" +name);
+        }
+        static float Average(int a, int b, int c)
+        {
+            float sum = a + b + c;
+            return sum / 3;
+        }
         static void Main(string[] args)
         {
             //int a=20, b=30;
@@ -153,23 +162,27 @@ namespace ConsoleApp1
 
             //break & Continue
 
-            for (int z = 20; z < 30; z++)
-            {
-                Console.WriteLine(z);
-                break; // when this condition true then its out from loop
-            }
+            //for (int z = 20; z < 30; z++)
+            //{
+            //    Console.WriteLine(z);
+            //    break; // when this condition true then its out from loop
+            //}
 
-            for (int m = 0; m < 5; m++)
-            {
-                if(m==2)// in this situation 2 not print
-                    {
+            //for (int m = 0; m < 5; m++)
+            //{
+            //    if(m==2)// in this situation 2 not print
+            //        {
 
-                continue;
-                }
-                Console.WriteLine(m);
+            //    continue;
+            //    }
+                //Console.WriteLine(m);
                 
-            }
+            //}
+            greet("hayat");
+            greet("jahangir");
+            //greet(name);
 
+           Console.WriteLine( Average(2, 3, 5));
 
             Console.ReadLine();
 
