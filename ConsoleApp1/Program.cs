@@ -47,7 +47,11 @@ namespace ConsoleApp1
             //Console.WriteLine(c);
             //Console.WriteLine(d);
 
-            //String hello = "Hello Hayat Jahangir Khan ";
+            //escape Sequence characters
+
+            String hello = "Hello Hayat \"Jahangir Khan ";
+            String hello1 = "Hello Hayat \nJahangir Khan ";
+            String hello2 = "Hello Hayat \tJahangir Khan ";
             //Console.WriteLine(hello.Length);
             //Console.WriteLine(hello.ToUpper());
             //Console.WriteLine(hello. ToLower());
@@ -60,10 +64,15 @@ namespace ConsoleApp1
             //Console.WriteLine($"Your Name is {name}. you will get {cands} cands");
             //Console.WriteLine($" {name}. {cands} cands");
 
-            String hello = "Hello world this is jaaniya";
+            //String hello = "Hello world this is jaaniya";
             //Console.WriteLine(hello[2]);
-            Console.WriteLine(hello.IndexOf("world"));
-            Console.WriteLine(hello.Substring(5));
+            //Console.WriteLine(hello.IndexOf("world"));
+            //Console.WriteLine(hello.Substring(5));
+
+            Console.WriteLine(hello);
+            Console.WriteLine(hello1);
+            Console.WriteLine(hello2);
+
 
 
             Console.ReadLine();
